@@ -1,0 +1,46 @@
+<html>
+<head>
+<script src="static/graphs.js" type="text/javascript"></script>
+<script type = "text/javascript" src = "static/jquery.js"></script> 	
+<title>Graph coloring</title>
+<link rel="stylesheet" href="static/styles.css" type="text/css" />
+</head>
+<body>
+<div id="container">
+	<div id="header">
+    	<h1><a href="/">VERTEX COLORING</a></h1>
+        <h2>A graphical solution</h2>
+        <div class="clear"></div>
+</div>
+<div id="content">
+	<form><div align="center">
+        <canvas id = "a" height="450px" width="850px" style="border:1px solid #c3c3c3; position:relative;"></canvas></div>
+	</form><br><div>
+	<input type=button value="Clear" onClick="history.go()"></div>
+	<script>  draw_canvas();  </script>  
+</div>
+<div class="sidebar">
+            <ul>	
+               <li>
+                    <h4>Instructions</h4>
+                    <ul>
+                       <h5> <u><b>Draw a graph</b></u>
+				<br><br>*Doubleclick on the canvas to draw a vertex.
+				<br><br>*Click on the first vertex and drag the mouse pointer to the second vertex to draw an edge between them.
+				<br><br>*To clear the canvas click on "clear" button.
+				<br><br><u><b><font color="red">Note</font></b></u>
+				<br>*If you are using chrome browser, then just give a single click on vertex before drawing edges.
+				<br><br>*Maximum of 10 colors allowed.<br>
+		       </h5>
+		    </ul>
+                </li>
+	    </ul>
+</div>
+<div class="clear">
+    <div id="footer">
+        <div class="footer-content">
+        	<p> Created by Anoop.S.M Contact: anoopmhn2009@gmail.com</p>
+	</div>
+    </div>
+</body>
+</html>
